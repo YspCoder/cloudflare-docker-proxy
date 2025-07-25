@@ -14,6 +14,10 @@ module.exports = {
         test: /\.mjs$/,
         type: "javascript/auto",
       },
+      {
+        test: /\.html$/i,
+        use: "html-loader",
+      },
     ],
   },
 };
