@@ -1,8 +1,11 @@
 name = "cloudflare-docker-proxy"
-compatibility_date = "2023-12-01"
+compatibility_date = "2025-07-25"
 
 [assets]
 directory = "./dist"
+
+[observability.logs]
+enabled = true
 
 [dev]
 ip = "0.0.0.0"
